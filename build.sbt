@@ -11,13 +11,10 @@ lazy val volt = (project in file(".")).
   settings(commonSettings: _*).
   settings(
     name := "volt",
-    
     libraryDependencies ++= Seq(
       // Test Dependencies
       junit % Test,
       scalacheck % Test
     ),
-    
     scalacOptions += "-deprecation"
-    
   )
