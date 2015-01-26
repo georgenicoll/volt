@@ -17,3 +17,7 @@ project/plugins/project/
 .worksheet
 .idea/
 *~
+database/catalog-report.html
+database/log/
+database/data/*_invalidrows.csv
+database/voltdbroot/
