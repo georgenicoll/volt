@@ -19,5 +19,7 @@ project/plugins/project/
 *~
 database/catalog-report.html
 database/log/
-database/data/*_invalidrows.csv
+*_invalidrows.csv
 database/voltdbroot/
+log/
+voltdbroot/
